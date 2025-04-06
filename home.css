@@ -24,7 +24,7 @@ h2{
     font-size: 2vw;
 }
 footer{
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -156,7 +156,7 @@ img:hover{
 .contactform{
     background-color: rgba(0,0,0,0.1);
     display: flex;
-    height:70vh;
+    height:fit-content;
     width:50vw;
     justify-self: center; 
 }
@@ -172,7 +172,7 @@ img:hover{
 /* article class */
 /* ----------------- */
 .foot{
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -182,7 +182,11 @@ img:hover{
     margin-bottom: 0px;
     text-shadow: 0px 0px 5px gold;
 }
-
+#footing{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 /* instagram class */
 /* ----------------- */
@@ -216,7 +220,31 @@ img:hover{
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 620px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .socialmedia{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+    padding-top: 20px;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;  
+        justify-content: space-between;
+        padding-top: 20px;
+        margin:0px 30px 0px 30px;
+    }
+
     .content{
         display: flex;
         flex-direction: column;
@@ -227,7 +255,12 @@ img:hover{
         width: 50vw;
     }
     .intro{
-        width: 80vw;
+        width: 100vw;
+        text-align: center;
+    }
+    #boy{
+        height:100%;
+        width:100%;
     }
     .items{
         display: flex;
@@ -235,7 +268,26 @@ img:hover{
     }
     .contactform{
         display: flex;
-        height:100vh;
+        height: fit-content;
         width:100vw;
         justify-self: center;
+    }
+    li{
+        font-size: 2vh;
+    }
+    h2{
+        font-size: 3vh;
+    }
+    .aintro{
+        font-size: 2vh;
+    }
+    .heading{
+        font-size: 4vh;
+    }
+    .foot{
+        position: absolute;
+    }
+    #footing{
+        position: relative;
+    }
 }
