@@ -1,0 +1,225 @@
+/* tags */
+/* ----------------- */
+body{
+    margin: 0;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+header{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    background: none;
+    color: white;
+    border: none;
+    font-size: x-large;
+    font-style: oblique;
+    font-family: cursive;
+}
+h2{
+    font-size: 2vw;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 0px;
+    text-shadow: 0px 0px 5px gold;
+}
+img{
+    border-radius: 200px 50px 200px 50px;
+}
+li{
+    padding: 10px;
+    font-size: 1.3vw;
+}
+label{
+    color: grey;
+    font-style: oblique;
+}
+input{
+    width: 100%;
+    height: 25px;
+    border-radius: 1rem;
+}
+select{
+    width:100%;
+    height: 25px;
+}
+form{
+    width: 100%;
+}
+fieldset{
+    padding: 5%;
+    border-radius: 1rem;
+    background-color: rgb(28, 0, 53);
+}
+
+/* hover effect */
+button:hover{
+    color: rgb(231, 117, 222);
+    text-shadow: 0px 0px 25px gold;  
+}
+img:hover{
+    border-radius: 100em;
+    box-shadow: 0px 0px 25px gold;
+}
+
+
+
+/*home class */
+/* ----------------- */
+.socialmedia{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding-top: 20px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    padding-top: 20px;
+    margin:30px 30px 0px 30px;
+}
+.intro{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vw;
+    text-shadow: 0px 0px 3px gold;
+}
+.profile-container{
+    height: 50vw;
+    width: 30vw;
+    margin-left: 1%;
+    margin-top: 1%;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.text{
+    font-size: 5vw;
+}
+
+.content{
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    height: 90%;
+}
+
+/* About class */
+/* ----------------- */
+.all{
+    margin: 50px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+.aintro{
+    font-size: 1.5vw;
+}
+.text-content{
+    margin: 50px;
+    text-shadow: 0px 0px 3px gold;
+}
+.aborder{
+    background-color: white;
+    border-radius: 100rem;
+    border:5px solid rgb(62, 2, 62);
+    overflow:hidden;
+    height:400px;
+    width:400px;
+}
+.heading{
+    text-align: center;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+/* Contact page */
+/* ----------------- */
+.contactform{
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    height:70vh;
+    width:50vw;
+    justify-self: center; 
+}
+.submission{
+    width: 80%;
+    height: 25px;
+    display:flex;
+    flex-direction: row;
+    justify-self: center;
+    
+}
+
+/* article class */
+/* ----------------- */
+.foot{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(20, 20, 20);
+    margin-bottom: 0px;
+    text-shadow: 0px 0px 5px gold;
+}
+
+
+/* instagram class */
+/* ----------------- */
+.Qrcode{
+    border-radius: 0px;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* id */
+/* ----------------- */
+#boy{
+    width: 30vw;
+    height: 50vw;
+
+}
+#boy:hover{
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px gold
+}
+#qrcode{
+    border-radius: 0px;
+    height: 50vw;
+}
+#qrcode:hover{
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px gold ;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
