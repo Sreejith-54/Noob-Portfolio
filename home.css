@@ -216,10 +216,26 @@ img:hover{
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
     .content{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .profile-container{
+    height: 80vw;
+    width: 50vw;
+    }
+    .intro{
+    width: 80vw;
+    }
+    .items{
+    display: flex;
+    flex-direction: column;
+    }
+    .contactform{
+    display: flex;
+    height:100vh;
+    width:100vw;
+    justify-self: center;
 }
