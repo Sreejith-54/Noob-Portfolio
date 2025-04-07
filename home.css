@@ -138,12 +138,22 @@ img:hover{
     text-shadow: 0px 0px 3px gold;
 }
 .aborder{
+    display: flex;
+    justify-content: center;
     background-color: white;
     border-radius: 100rem;
     border:5px solid rgb(62, 2, 62);
     overflow:hidden;
-    height:400px;
-    width:400px;
+    height:20vw;
+    width:40vw;
+}
+.aimage{
+    height:20vw;
+    width:30vw;
+    border-radius: 0px;
+}
+.aimage:hover{
+    border-radius: 0px;
 }
 .heading{
     text-align: center;
@@ -265,6 +275,7 @@ img:hover{
     .items{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .contactform{
         display: flex;
@@ -290,7 +301,7 @@ img:hover{
     .footing{
         position: relative;
     }
-     .aborder{
+    .aborder{
         height: 80vw;
         width: 80vw;
     }
