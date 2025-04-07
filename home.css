@@ -290,4 +290,17 @@ img:hover{
     .footing{
         position: relative;
     }
+     .aborder{
+        height: 80vw;
+        width: 80vw;
+    }
+    .aimage{
+        height:80vw;
+        width:80vw;
+        border-radius: 0px;
+    }
+    .aimage:hover{
+        border-radius: 0px;
+    }
+    
 }
